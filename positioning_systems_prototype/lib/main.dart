@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:positioning_systems_prototype/tabbar.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
@@ -15,5 +16,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
